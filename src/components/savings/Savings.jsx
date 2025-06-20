@@ -2,7 +2,7 @@ import React from 'react'
 import SavingsCard from './SavingsCard'
 import './Savings.css'
 import One from "../../assets/images/one.png"
-import Two from "../../assets/images/Two.png"
+import Two from "../../assets/images/two.png"
 import Three from "../../assets/images/three.png"
 import Four from "../../assets/images/four.png"
 import Five from "../../assets/images/five.png"
