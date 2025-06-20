@@ -4,6 +4,8 @@ import Hero from "../components/hero/Hero"
 import Invest from '../components/invest/Invest'
 import Month from "../components/month/Month"
 import Join from '../components/join/Join'
+import Company from '../components/company/Company'
+import Footer from '../components/footer/Footer'
 
 const Homepage = () => {
     return (
@@ -13,6 +15,8 @@ const Homepage = () => {
             <Invest />
             <Month />
             <Join />
+            <Company />
+            <Footer />
         </div>
     )
 }
