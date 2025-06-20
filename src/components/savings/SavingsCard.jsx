@@ -1,10 +1,10 @@
 import React from 'react'
 import './Savings.css'
 
-const SavingsCard = ({ title, description, label, image }) => {
+const SavingsCard = ({ title, description, label, image,customClass }) => {
     return (
         <>
-            <div className="col-right row">
+        <div className={`savings-card row ${customClass}`}>
                 <div className="col-text">
                     <h1>
                         {title}
