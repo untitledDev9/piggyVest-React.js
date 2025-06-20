@@ -1,5 +1,11 @@
 import React from 'react'
 import './Footer.css'
+import FooterImg from '../../assets/images/footer-img.png'
+import Facebook from "../../assets/icons/facebook (3).png"
+import instagram from "../../assets/icons/instagram (3).png"
+import twitter from "../../assets/icons/twitter (3).png"
+import tiktok from "../../assets/icons/tik-tok.png"
+import youtube from "../../assets/icons/youtube (1).png"
 
 const Footer = () => {
     return (
@@ -7,7 +13,7 @@ const Footer = () => {
             <footer className="fut-footer">
                 <footer className="footer">
                     <div className="footer-img">
-                        <img src="assets/images/footer-img.png" alt="" />
+                        <img src={FooterImg} alt="" />
                     </div>
 
 
@@ -43,11 +49,11 @@ const Footer = () => {
 
                         <div className="fut-cta">
                             <div className="cta-icns">
-                                <img src="assets/icons/facebook (3).png" alt="" />
-                                <img src="assets/icons/instagram (3).png" alt="" />
-                                <img src="assets/icons/twitter (3).png" alt="" />
-                                <img src="assets/icons/tik-tok.png" alt="" />
-                                <img src="assets/icons/youtube (1).png" alt="" />
+                                <img src={Facebook} alt="" />
+                                <img src={instagram} alt="" />
+                                <img src={twitter} alt="" />
+                                <img src={tiktok} alt="" />
+                                <img src={youtube} alt="" />
                             </div>
                             <div className="cta-info">
 
@@ -63,11 +69,11 @@ const Footer = () => {
 
                     <div className="fut-ctaa">
                         <div className="cta-icns">
-                            <img src="assets/icons/facebook (3).png" alt="" />
-                            <img src="assets/icons/instagram (3).png" alt="" />
-                            <img src="assets/icons/twitter (3).png" alt="" />
-                            <img src="assets/icons/tik-tok.png" alt="" />
-                            <img src="assets/icons/youtube (1).png" alt="" />
+                            <img src={Facebook} alt="" />
+                            <img src={instagram} alt="" />
+                            <img src={twitter} alt="" />
+                            <img src={tiktok} alt="" />
+                            <img src={youtube} alt="" />
                         </div>
                         <div className="cta-info">
 
@@ -79,7 +85,16 @@ const Footer = () => {
                     </div>
                 </footer>
             </footer>
-            <footer className="bottom-fut"></footer>
+            <footer class="bottom-fut">
+                <div class="hr-line"></div>
+                <h4>
+                    Piggyvest (formerly piggybank.ng) is the leading online savings & investing platform in Nigeria. For over 9 years, our customers have saved and invested billions of Naira that they would normally be tempted to spend.
+                </h4>
+                <h4>
+                    PV Capital Limited is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria.</h4>
+                <h4>
+                    2016 - 2025 PiggyTech Global Limited - RC 1405222</h4>
+            </footer>
         </>
     )
 }
