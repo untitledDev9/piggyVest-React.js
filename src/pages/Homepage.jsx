@@ -6,12 +6,14 @@ import Month from "../components/month/Month"
 import Join from '../components/join/Join'
 import Company from '../components/company/Company'
 import Footer from '../components/footer/Footer'
+import Savings from '../components/savings/Savings'
 
 const Homepage = () => {
     return (
         <div>
             <NavBar />
             <Hero />
+            <Savings />
             <Invest />
             <Month />
             <Join />
